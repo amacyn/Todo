@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Todo | Home</title>
+  </head>
+  <body>
+    <header id="content">
+      <div class="logo">TODO</div>
+    </header>
+    <div>
+      <form
+        class="form-margin"
+        method="post"
+        action="javascript.void(0);"
+        style="margin: auto; max-width: 500px"
+      >
+        <input
+          type="text"
+          placeholder="Enter New Task Tittle.."
+          name="search"
+        />
+        <button type="submit">Add Task</button>
+      </form>
+    </div>
+    <section>
+      <ul>
+        <li class="container">
+          <label class="label"
+            >Task 1
+            <input type="checkbox" checked="checked" />
+            <span class="checkmark"></span>
+          </label>
+          <button type="submit">Edit</button>
+          <button class="Delete" type="button" onclick="deleteTask(1)">
+            Delete
+          </button>
+        </li>
+        <li class="container">
+          <label class="label"
+            >Task 2
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <button type="submit">Edit</button>
+          <button class="Delete" onclick="deleteTask(2)">Delete</button>
+        </li>
+        <li class="container">
+          <label class="label"
+            >Task 3
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <button type="submit">Edit</button>
+          <button class="Delete" onclick="deleteTask(3)">Delete</button>
+        </li>
+        <li class="container">
+          <label class="label"
+            >Task 4
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <button type="submit">Edit</button>
+          <button class="Delete" onclick="deleteTask(4)">Delete</button>
+        </li>
+        <li class="container">
+          <label class="label"
+            >Task 5
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <button type="submit">Edit</button>
+          <button class="Delete" onclick="deleteTask(5)">Delete</button>
+        </li>
+        <li class="container">
+          <label class="label"
+            >Task 6
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <button type="submit">Edit</button>
+          <button class="Delete" onclick="deleteTask(6)">Delete</button>
+        </li>
+        <li class="container">
+          <label class="label"
+            >Task 7
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <button type="submit">Edit</button>
+          <button class="Delete" onclick="deleteTask(7)">Delete</button>
+        </li>
+        <li class="container">
+          <label class="label"
+            >Task 8
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <button type="submit">Edit</button>
+          <button class="Delete" onclick="deleteTask(8)">Delete</button>
+        </li>
+        <li class="container">
+          <label class="label"
+            >Task 9
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <button type="submit">Edit</button>
+          <button class="Delete" onclick="deleteTask(9)">Delete</button>
+        </li>
+        <li class="container">
+          <label class="label"
+            >Task 10
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <button type="submit">Edit</button>
+          <button class="Delete" onclick="deleteTask(10)">Delete</button>
+        </li>
+      </ul>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
