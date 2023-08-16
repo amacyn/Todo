@@ -1,0 +1,200 @@
+
+
+ .html{
+ background-color:white;
+ font-family:'Poppins', Open sans-serif, sans-serif; 
+}
+
+.html_2{
+    background-color: var(--Very_Dark_Desaturated_Blue);
+}
+
+:root{
+    /* Light theme */
+    --Very_Light_Gray: hsl(0, 0%, 98%);
+    --Very_Light_Grayish_Blue: hsl(236, 33%, 92%);
+    --Light_Grayish_Blue: hsl(233, 11%, 84%);
+    --Dark_Grayish_Blue: hsl(236, 9%, 61%);
+     --Very_Dark_Grayish_Blue: hsl(235, 19%, 35%);
+    /* Dark theme */
+    --Very_Dark_Blue: hsl(235, 21%, 11%);
+    --Very_Dark_Desaturated_Blue: hsl(235, 24%, 19%);
+    --Light_Grayish_Blue: hsl(234, 39%, 85%);
+    --Light_Grayish_Blue_Hover: hsl(236, 33%, 92%);
+    --Dark_Grayish_Blue: hsl(234, 11%, 52%);
+    --Very_Dark_Grayish_Blue: hsl(237, 14%, 26%);
+    /* Primary */
+    --Bright_Blue: hsl(220, 98%, 61%);
+    --Check_Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+    /* shadow */
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.body {
+    background-image: url(../images/bg-desktop-light.jpg);
+    padding: 2rem; 
+    height: 18rem;
+}
+
+section{
+    margin-bottom: 4.7rem;
+}
+
+.body_2 {
+    background-image: url(../images/bg-desktop-dark.jpg);
+    padding: 3rem;
+    height: 18rem;
+}
+
+.header {
+    color: var(--Very_Light_Gray);
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 10px;
+}
+
+.moon {
+    background-image: url(../images/icon-moon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    cursor: pointer;
+}
+
+.sun {
+    background-image: url(../images/icon-sun.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    cursor: pointer;
+}
+
+.screen {
+    height: 4rem;
+    width: 43rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: -3rem;
+    background-color: var(--Very_Light_Gray);
+    /* background-color: var(--Very_Dark_Desaturated_Blue); */
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.screen_2 {
+    height: 4rem;
+    width: 43rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: -3rem;
+    background-color: var(--Very_Dark_Desaturated_Blue);
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border: 1px solid var(--Dark_Grayish_Blue);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.add_task{
+    display: flex;
+    justify-content: center;
+}
+
+.add_input {
+    height: 4rem;
+    width: 30rem;
+    outline: none;
+    border: none;
+    font-size: xx-large;
+    background-color: inherit;
+    color: var(--Very_Dark_Desaturated_Blue) ;
+    margin-right: 4rem;
+}
+
+.add_input_2 {
+    height: 4rem;
+    width: 30rem;
+    outline: none;
+    border: none;
+    font-size: xx-large;
+    background-color: inherit;
+    color: var(--Very_Light_Gray);
+    margin-right: 4rem;
+}
+
+.check {
+    height: 20px;
+    width: 20px;
+    border: 1px solid var(--Dark_Grayish_Blue);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.todo_container_shield{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo_container {
+    background-color: var(--Very_Light_Gray);
+    height: fit-content;
+    width: 43rem;
+    border: none;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+    color: var(--Very_Dark_Blue);
+    box-shadow: var(--light-shadow);
+    /* background-color: var(--Very_Dark_Desaturated_Blue); */
+
+}
+
+.todo_container_2 {
+    background-color: var(--Very_Dark_Desaturated_Blue);
+    height: fit-content;
+    width: 43rem;
+    border: none;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+    color: var(--Very_Light_Gray);
+    box-shadow: var(--dark-shadow);
+}
+
+.toggle {
+    text-decoration: line-through;
+}
+.toggle-2 {
+    background-color: hsl(300, 82%, 63%);
+    background-image: url(../images/icon-check.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center;
+}
+
+p {
+    padding-block: 15px;
+    border-bottom: 1px solid black;
+}
+
+
+
